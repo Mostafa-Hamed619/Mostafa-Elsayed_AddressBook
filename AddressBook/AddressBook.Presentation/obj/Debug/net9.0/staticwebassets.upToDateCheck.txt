@@ -1,3 +1,5 @@
 wwwroot\uploads\addresses\38ae261b-b63a-4b47-b848-521360c31a51.webp
+wwwroot\uploads\addresses\3f57e8e7-0677-428e-998e-4cfcd0aef3aa.avif
 wwwroot\uploads\addresses\4c8f154c-5820-4b8e-8f89-abc6451e56e1.webp
 wwwroot\uploads\addresses\86558f71-1c4a-4cbc-abb2-544fffb607cd.jpg
+wwwroot\uploads\addresses\a9b647b1-3cba-4dbe-81ad-89e02618290b.png

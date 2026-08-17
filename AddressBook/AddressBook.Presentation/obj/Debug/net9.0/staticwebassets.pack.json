@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\uploads\\addresses\\38ae261b-b63a-4b47-b848-521360c31a51.webp"
     },
     {
+      "Id": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\wwwroot\\uploads\\addresses\\3f57e8e7-0677-428e-998e-4cfcd0aef3aa.avif",
+      "PackagePath": "staticwebassets\\uploads\\addresses\\3f57e8e7-0677-428e-998e-4cfcd0aef3aa.avif"
+    },
+    {
       "Id": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\wwwroot\\uploads\\addresses\\4c8f154c-5820-4b8e-8f89-abc6451e56e1.webp",
       "PackagePath": "staticwebassets\\uploads\\addresses\\4c8f154c-5820-4b8e-8f89-abc6451e56e1.webp"
     },
     {
       "Id": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\wwwroot\\uploads\\addresses\\86558f71-1c4a-4cbc-abb2-544fffb607cd.jpg",
       "PackagePath": "staticwebassets\\uploads\\addresses\\86558f71-1c4a-4cbc-abb2-544fffb607cd.jpg"
+    },
+    {
+      "Id": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\wwwroot\\uploads\\addresses\\a9b647b1-3cba-4dbe-81ad-89e02618290b.png",
+      "PackagePath": "staticwebassets\\uploads\\addresses\\a9b647b1-3cba-4dbe-81ad-89e02618290b.png"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.AddressBook.Presentation.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

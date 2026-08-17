@@ -69,6 +69,22 @@ closeEditModal(): void {
   this.selectedPhoto = null;
 }
 
+recalculateAge(): void {
+  if (!this.selectedAddress) return;
+
+  const dob = new Date(this.selectedAddress.dateOfBirth);
+  const today = new Date();
+
+  let age = today.getFullYear() - dob.getFullYear();
+
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+
+  this.selectedAddress.age = age;
+}
+
 onPhotoSelected(event: Event): void {
 
   const input = event.target as HTMLInputElement;

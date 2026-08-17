@@ -190,8 +190,7 @@
               "RelativeToolTip": "AddressBook.Presentation\\Program.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAkwFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T18:20:01.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T18:20:01.131Z"
             },
             {
               "$type": "Document",
@@ -203,8 +202,7 @@
               "RelativeToolTip": "AddressBook.Business\\DTOs\\Auth\\LoginResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T18:32:29.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T18:32:29.042Z"
             },
             {
               "$type": "Document",
@@ -216,8 +214,7 @@
               "RelativeToolTip": "AddressBook.Presentation\\Controllers\\AddressController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T17:38:54.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T17:38:54.313Z"
             },
             {
               "$type": "Document",
@@ -229,8 +226,7 @@
               "RelativeToolTip": "AddressBook.Business\\DTOs\\Address\\UpdateAddressDto.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAYwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T18:39:17.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T18:39:17.038Z"
             },
             {
               "$type": "Document",
@@ -238,12 +234,11 @@
               "Title": "AddressSearchDto.cs",
               "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Address\\AddressSearchDto.cs",
               "RelativeDocumentMoniker": "AddressBook.Business\\DTOs\\Address\\AddressSearchDto.cs",
-              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Address\\AddressSearchDto.cs*",
-              "RelativeToolTip": "AddressBook.Business\\DTOs\\Address\\AddressSearchDto.cs*",
+              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Address\\AddressSearchDto.cs",
+              "RelativeToolTip": "AddressBook.Business\\DTOs\\Address\\AddressSearchDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T18:45:06.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T18:45:06.684Z"
             },
             {
               "$type": "Document",
@@ -255,8 +250,7 @@
               "RelativeToolTip": "AddressBook.Business\\Interfaces\\IAddressService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAArwBAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T17:33:26.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T17:33:26.28Z"
             },
             {
               "$type": "Document",
@@ -264,9 +258,9 @@
               "Title": "AddressService.cs",
               "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Services\\AddressService.cs",
               "RelativeDocumentMoniker": "AddressBook.Presentation\\Services\\AddressService.cs",
-              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Services\\AddressService.cs*",
-              "RelativeToolTip": "AddressBook.Presentation\\Services\\AddressService.cs*",
-              "ViewState": "AgIAAK4AAAAAAAAAAAAYwO8AAAAJAAAAAAAAAA==",
+              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Services\\AddressService.cs",
+              "RelativeToolTip": "AddressBook.Presentation\\Services\\AddressService.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAYwMEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-16T18:54:04.163Z",
               "EditorCaption": ""
@@ -281,8 +275,7 @@
               "RelativeToolTip": "AddressBook.Presentation\\Authentication\\JwtService.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAIwDIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T19:24:47.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T19:24:47.045Z"
             },
             {
               "$type": "Document",
@@ -294,8 +287,7 @@
               "RelativeToolTip": "AddressBook.Presentation\\Services\\AuthService.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAIwC4AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T19:21:42.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T19:21:42.263Z"
             },
             {
               "$type": "Document",
@@ -307,8 +299,7 @@
               "RelativeToolTip": "AddressBook.Presentation\\Controllers\\AuthController.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAIwDcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T17:38:25.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T17:38:25.631Z"
             },
             {
               "$type": "Document",
@@ -320,8 +311,7 @@
               "RelativeToolTip": "AddressBook.Business\\DTOs\\Auth\\RegisterRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T18:29:00.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T18:29:00.423Z"
             },
             {
               "$type": "Document",
