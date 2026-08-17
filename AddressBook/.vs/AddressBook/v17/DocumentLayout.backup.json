@@ -3,16 +3,48 @@
   "WorkspaceRootPath": "E:\\projects\\Api\\AddressBook\\AddressBook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.presentation\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|solutionrelative:addressbook.presentation\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.presentation\\services\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|solutionrelative:addressbook.presentation\\services\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5EC8AD4-966C-4742-886B-3B4069187C9A}|AddressBook.Business\\AddressBook.Business.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.business\\interfaces\\iaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5EC8AD4-966C-4742-886B-3B4069187C9A}|AddressBook.Business\\AddressBook.Business.csproj|solutionrelative:addressbook.business\\interfaces\\iaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5EC8AD4-966C-4742-886B-3B4069187C9A}|AddressBook.Business\\AddressBook.Business.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.business\\dtos\\address\\addresssearchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5EC8AD4-966C-4742-886B-3B4069187C9A}|AddressBook.Business\\AddressBook.Business.csproj|solutionrelative:addressbook.business\\dtos\\address\\addresssearchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|solutionrelative:addressbook.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5EC8AD4-966C-4742-886B-3B4069187C9A}|AddressBook.Business\\AddressBook.Business.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.business\\dtos\\address\\updateaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5EC8AD4-966C-4742-886B-3B4069187C9A}|AddressBook.Business\\AddressBook.Business.csproj|solutionrelative:addressbook.business\\dtos\\address\\updateaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.presentation\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|solutionrelative:addressbook.presentation\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|solutionrelative:addressbook.presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.presentation\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|solutionrelative:addressbook.presentation\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5EC8AD4-966C-4742-886B-3B4069187C9A}|AddressBook.Business\\AddressBook.Business.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.business\\dtos\\auth\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5EC8AD4-966C-4742-886B-3B4069187C9A}|AddressBook.Business\\AddressBook.Business.csproj|solutionrelative:addressbook.business\\dtos\\auth\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.presentation\\authentication\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|solutionrelative:addressbook.presentation\\authentication\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5EC8AD4-966C-4742-886B-3B4069187C9A}|AddressBook.Business\\AddressBook.Business.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.business\\dtos\\auth\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5EC8AD4-966C-4742-886B-3B4069187C9A}|AddressBook.Business\\AddressBook.Business.csproj|solutionrelative:addressbook.business\\dtos\\auth\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.presentation\\services\\jobtitleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,14 +75,6 @@
       "RelativeMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|solutionrelative:addressbook.presentation\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|solutionrelative:addressbook.presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.presentation\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|solutionrelative:addressbook.presentation\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.presentation\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|solutionrelative:addressbook.presentation\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -61,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E5EC8AD4-966C-4742-886B-3B4069187C9A}|AddressBook.Business\\AddressBook.Business.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.business\\dtos\\department\\createdepartmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5EC8AD4-966C-4742-886B-3B4069187C9A}|AddressBook.Business\\AddressBook.Business.csproj|solutionrelative:addressbook.business\\dtos\\department\\createdepartmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|solutionrelative:addressbook.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5EC8AD4-966C-4742-886B-3B4069187C9A}|AddressBook.Business\\AddressBook.Business.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.business\\dtos\\jobtitle\\jobtitledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,10 +107,6 @@
       "RelativeMoniker": "D:0:0:{E5EC8AD4-966C-4742-886B-3B4069187C9A}|AddressBook.Business\\AddressBook.Business.csproj|solutionrelative:addressbook.business\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5EC8AD4-966C-4742-886B-3B4069187C9A}|AddressBook.Business\\AddressBook.Business.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.business\\dtos\\address\\updateaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5EC8AD4-966C-4742-886B-3B4069187C9A}|AddressBook.Business\\AddressBook.Business.csproj|solutionrelative:addressbook.business\\dtos\\address\\updateaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E5EC8AD4-966C-4742-886B-3B4069187C9A}|AddressBook.Business\\AddressBook.Business.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.business\\dtos\\address\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5EC8AD4-966C-4742-886B-3B4069187C9A}|AddressBook.Business\\AddressBook.Business.csproj|solutionrelative:addressbook.business\\dtos\\address\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -103,14 +119,6 @@
       "RelativeMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|solutionrelative:addressbook.presentation\\services\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.presentation\\authentication\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|solutionrelative:addressbook.presentation\\authentication\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5EC8AD4-966C-4742-886B-3B4069187C9A}|AddressBook.Business\\AddressBook.Business.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.business\\dtos\\auth\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5EC8AD4-966C-4742-886B-3B4069187C9A}|AddressBook.Business\\AddressBook.Business.csproj|solutionrelative:addressbook.business\\dtos\\auth\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|solutionrelative:addressbook.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -121,14 +129,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.presentation\\addressbook.presentation.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{1059907B-0BEC-4AEC-8894-EC38BA171652}|AddressBook.Presentation\\AddressBook.Presentation.csproj|solutionrelative:addressbook.presentation\\addressbook.presentation.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5EC8AD4-966C-4742-886B-3B4069187C9A}|AddressBook.Business\\AddressBook.Business.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.business\\dtos\\address\\addresssearchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5EC8AD4-966C-4742-886B-3B4069187C9A}|AddressBook.Business\\AddressBook.Business.csproj|solutionrelative:addressbook.business\\dtos\\address\\addresssearchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5EC8AD4-966C-4742-886B-3B4069187C9A}|AddressBook.Business\\AddressBook.Business.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.business\\dtos\\auth\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5EC8AD4-966C-4742-886B-3B4069187C9A}|AddressBook.Business\\AddressBook.Business.csproj|solutionrelative:addressbook.business\\dtos\\auth\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5EC8AD4-966C-4742-886B-3B4069187C9A}|AddressBook.Business\\AddressBook.Business.csproj|e:\\projects\\api\\addressbook\\addressbook\\addressbook.business\\dtos\\auth\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -170,7 +170,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -182,85 +182,150 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "JobTitleController.cs",
-              "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Controllers\\JobTitleController.cs",
-              "RelativeDocumentMoniker": "AddressBook.Presentation\\Controllers\\JobTitleController.cs",
-              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Controllers\\JobTitleController.cs",
-              "RelativeToolTip": "AddressBook.Presentation\\Controllers\\JobTitleController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAdAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "AddressBook.Presentation\\Program.cs",
+              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Program.cs",
+              "RelativeToolTip": "AddressBook.Presentation\\Program.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAkwFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T17:39:06.6Z",
+              "WhenOpened": "2026-08-16T18:20:01.131Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Auth\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "AddressBook.Business\\DTOs\\Auth\\LoginResponseDto.cs",
+              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Auth\\LoginResponseDto.cs",
+              "RelativeToolTip": "AddressBook.Business\\DTOs\\Auth\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T18:32:29.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AddressController.cs",
               "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Controllers\\AddressController.cs",
               "RelativeDocumentMoniker": "AddressBook.Presentation\\Controllers\\AddressController.cs",
               "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Controllers\\AddressController.cs",
               "RelativeToolTip": "AddressBook.Presentation\\Controllers\\AddressController.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAF0AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-16T17:38:54.313Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateAddressDto.cs",
+              "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Address\\UpdateAddressDto.cs",
+              "RelativeDocumentMoniker": "AddressBook.Business\\DTOs\\Address\\UpdateAddressDto.cs",
+              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Address\\UpdateAddressDto.cs",
+              "RelativeToolTip": "AddressBook.Business\\DTOs\\Address\\UpdateAddressDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T18:39:17.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AddressSearchDto.cs",
+              "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Address\\AddressSearchDto.cs",
+              "RelativeDocumentMoniker": "AddressBook.Business\\DTOs\\Address\\AddressSearchDto.cs",
+              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Address\\AddressSearchDto.cs*",
+              "RelativeToolTip": "AddressBook.Business\\DTOs\\Address\\AddressSearchDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T18:45:06.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "IAddressService.cs",
               "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\Interfaces\\IAddressService.cs",
               "RelativeDocumentMoniker": "AddressBook.Business\\Interfaces\\IAddressService.cs",
               "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\Interfaces\\IAddressService.cs",
               "RelativeToolTip": "AddressBook.Business\\Interfaces\\IAddressService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAArwBIAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAArwBAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-16T17:33:26.28Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UpdateDepartmentDto.cs",
-              "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Department\\UpdateDepartmentDto.cs",
-              "RelativeDocumentMoniker": "AddressBook.Business\\DTOs\\Department\\UpdateDepartmentDto.cs",
-              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Department\\UpdateDepartmentDto.cs",
-              "RelativeToolTip": "AddressBook.Business\\DTOs\\Department\\UpdateDepartmentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T20:33:05.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "JobTitleService.cs",
-              "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Services\\JobTitleService.cs",
-              "RelativeDocumentMoniker": "AddressBook.Presentation\\Services\\JobTitleService.cs",
-              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Services\\JobTitleService.cs",
-              "RelativeToolTip": "AddressBook.Presentation\\Services\\JobTitleService.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAYwHQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T20:29:38.198Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AddressService.cs",
               "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Services\\AddressService.cs",
               "RelativeDocumentMoniker": "AddressBook.Presentation\\Services\\AddressService.cs",
-              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Services\\AddressService.cs",
-              "RelativeToolTip": "AddressBook.Presentation\\Services\\AddressService.cs",
-              "ViewState": "AgIAAAQBAAAAAAAAAAArwCoBAAAMAAAAAAAAAA==",
+              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Services\\AddressService.cs*",
+              "RelativeToolTip": "AddressBook.Presentation\\Services\\AddressService.cs*",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAYwO8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-16T18:54:04.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Authentication\\JwtService.cs",
+              "RelativeDocumentMoniker": "AddressBook.Presentation\\Authentication\\JwtService.cs",
+              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Authentication\\JwtService.cs",
+              "RelativeToolTip": "AddressBook.Presentation\\Authentication\\JwtService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwDIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T19:24:47.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "AddressBook.Presentation\\Services\\AuthService.cs",
+              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Services\\AuthService.cs",
+              "RelativeToolTip": "AddressBook.Presentation\\Services\\AuthService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAIwC4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T19:21:42.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AddressBook.Presentation\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AddressBook.Presentation\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwDcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T17:38:25.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterRequestDto.cs",
+              "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Auth\\RegisterRequestDto.cs",
+              "RelativeDocumentMoniker": "AddressBook.Business\\DTOs\\Auth\\RegisterRequestDto.cs",
+              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Auth\\RegisterRequestDto.cs",
+              "RelativeToolTip": "AddressBook.Business\\DTOs\\Auth\\RegisterRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T18:29:00.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "CreateJobTitleDto.cs",
               "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\JobTitle\\CreateJobTitleDto.cs",
               "RelativeDocumentMoniker": "AddressBook.Business\\DTOs\\JobTitle\\CreateJobTitleDto.cs",
@@ -268,12 +333,47 @@
               "RelativeToolTip": "AddressBook.Business\\DTOs\\JobTitle\\CreateJobTitleDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T20:46:54.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T20:46:54.919Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
+              "Title": "JobTitleService.cs",
+              "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Services\\JobTitleService.cs",
+              "RelativeDocumentMoniker": "AddressBook.Presentation\\Services\\JobTitleService.cs",
+              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Services\\JobTitleService.cs",
+              "RelativeToolTip": "AddressBook.Presentation\\Services\\JobTitleService.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAYwHQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T20:29:38.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UpdateDepartmentDto.cs",
+              "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Department\\UpdateDepartmentDto.cs",
+              "RelativeDocumentMoniker": "AddressBook.Business\\DTOs\\Department\\UpdateDepartmentDto.cs",
+              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Department\\UpdateDepartmentDto.cs",
+              "RelativeToolTip": "AddressBook.Business\\DTOs\\Department\\UpdateDepartmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T20:33:05.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "JobTitleController.cs",
+              "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Controllers\\JobTitleController.cs",
+              "RelativeDocumentMoniker": "AddressBook.Presentation\\Controllers\\JobTitleController.cs",
+              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Controllers\\JobTitleController.cs",
+              "RelativeToolTip": "AddressBook.Presentation\\Controllers\\JobTitleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T17:39:06.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "UpdateJobTitleDto.cs",
               "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\JobTitle\\UpdateJobTitleDto.cs",
               "RelativeDocumentMoniker": "AddressBook.Business\\DTOs\\JobTitle\\UpdateJobTitleDto.cs",
@@ -281,38 +381,11 @@
               "RelativeToolTip": "AddressBook.Business\\DTOs\\JobTitle\\UpdateJobTitleDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T20:47:17.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T20:47:17.968Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "AddressBook.Presentation\\Controllers\\AuthController.cs",
-              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "AddressBook.Presentation\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T17:38:25.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "AddressBook.Presentation\\Services\\AuthService.cs",
-              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Services\\AuthService.cs",
-              "RelativeToolTip": "AddressBook.Presentation\\Services\\AuthService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAIwBsAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T19:21:42.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "IJobTitleService.cs",
               "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\Interfaces\\IJobTitleService.cs",
               "RelativeDocumentMoniker": "AddressBook.Business\\Interfaces\\IJobTitleService.cs",
@@ -320,12 +393,11 @@
               "RelativeToolTip": "AddressBook.Business\\Interfaces\\IJobTitleService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T17:33:43.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T17:33:43.745Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "DepartmentController.cs",
               "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Controllers\\DepartmentController.cs",
               "RelativeDocumentMoniker": "AddressBook.Presentation\\Controllers\\DepartmentController.cs",
@@ -333,12 +405,11 @@
               "RelativeToolTip": "AddressBook.Presentation\\Controllers\\DepartmentController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T17:39:19.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T17:39:19.155Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "DepartmentService.cs",
               "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Services\\DepartmentService.cs",
               "RelativeDocumentMoniker": "AddressBook.Presentation\\Services\\DepartmentService.cs",
@@ -346,12 +417,11 @@
               "RelativeToolTip": "AddressBook.Presentation\\Services\\DepartmentService.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAYwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T20:25:00.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T20:25:00.504Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "IDepartmentService.cs",
               "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\Interfaces\\IDepartmentService.cs",
               "RelativeDocumentMoniker": "AddressBook.Business\\Interfaces\\IDepartmentService.cs",
@@ -359,12 +429,11 @@
               "RelativeToolTip": "AddressBook.Business\\Interfaces\\IDepartmentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T17:34:01.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T17:34:01.858Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "CreateDepartmentDto.cs",
               "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Department\\CreateDepartmentDto.cs",
               "RelativeDocumentMoniker": "AddressBook.Business\\DTOs\\Department\\CreateDepartmentDto.cs",
@@ -372,25 +441,11 @@
               "RelativeToolTip": "AddressBook.Business\\DTOs\\Department\\CreateDepartmentDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T20:32:36.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T20:32:36.429Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Program.cs",
-              "RelativeDocumentMoniker": "AddressBook.Presentation\\Program.cs",
-              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Program.cs",
-              "RelativeToolTip": "AddressBook.Presentation\\Program.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAkwDkAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T18:20:01.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "ICurrentUserService.cs",
               "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\Interfaces\\ICurrentUserService.cs",
               "RelativeDocumentMoniker": "AddressBook.Business\\Interfaces\\ICurrentUserService.cs",
@@ -398,12 +453,11 @@
               "RelativeToolTip": "AddressBook.Business\\Interfaces\\ICurrentUserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T18:27:24.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T18:27:24.567Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\Interfaces\\IAuthService.cs",
               "RelativeDocumentMoniker": "AddressBook.Business\\Interfaces\\IAuthService.cs",
@@ -411,12 +465,11 @@
               "RelativeToolTip": "AddressBook.Business\\Interfaces\\IAuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T17:33:09.754Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T17:33:09.754Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "JobTitleDto.cs",
               "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\JobTitle\\JobTitleDto.cs",
               "RelativeDocumentMoniker": "AddressBook.Business\\DTOs\\JobTitle\\JobTitleDto.cs",
@@ -424,12 +477,11 @@
               "RelativeToolTip": "AddressBook.Business\\DTOs\\JobTitle\\JobTitleDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T20:29:10.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T20:29:10.192Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "IJwtService.cs",
               "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\Interfaces\\IJwtService.cs",
               "RelativeDocumentMoniker": "AddressBook.Business\\Interfaces\\IJwtService.cs",
@@ -437,12 +489,11 @@
               "RelativeToolTip": "AddressBook.Business\\Interfaces\\IJwtService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T19:24:35.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T19:24:35.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "DepartmentDto.cs",
               "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Department\\DepartmentDto.cs",
               "RelativeDocumentMoniker": "AddressBook.Business\\DTOs\\Department\\DepartmentDto.cs",
@@ -450,25 +501,11 @@
               "RelativeToolTip": "AddressBook.Business\\DTOs\\Department\\DepartmentDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T20:24:29.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T20:24:29.667Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UpdateAddressDto.cs",
-              "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Address\\UpdateAddressDto.cs",
-              "RelativeDocumentMoniker": "AddressBook.Business\\DTOs\\Address\\UpdateAddressDto.cs",
-              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Address\\UpdateAddressDto.cs",
-              "RelativeToolTip": "AddressBook.Business\\DTOs\\Address\\UpdateAddressDto.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T18:39:17.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "AddressDto.cs",
               "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Address\\AddressDto.cs",
               "RelativeDocumentMoniker": "AddressBook.Business\\DTOs\\Address\\AddressDto.cs",
@@ -476,25 +513,11 @@
               "RelativeToolTip": "AddressBook.Business\\DTOs\\Address\\AddressDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T18:44:42.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T18:44:42.272Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "JwtService.cs",
-              "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Authentication\\JwtService.cs",
-              "RelativeDocumentMoniker": "AddressBook.Presentation\\Authentication\\JwtService.cs",
-              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Authentication\\JwtService.cs",
-              "RelativeToolTip": "AddressBook.Presentation\\Authentication\\JwtService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAYwDQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T19:24:47.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "CreateAddressDto.cs",
               "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Address\\CreateAddressDto.cs",
               "RelativeDocumentMoniker": "AddressBook.Business\\DTOs\\Address\\CreateAddressDto.cs",
@@ -502,12 +525,11 @@
               "RelativeToolTip": "AddressBook.Business\\DTOs\\Address\\CreateAddressDto.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAYwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T18:33:36.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T18:33:36.641Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "CurrentUserService.cs",
               "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\Services\\CurrentUserService.cs",
               "RelativeDocumentMoniker": "AddressBook.Presentation\\Services\\CurrentUserService.cs",
@@ -515,25 +537,11 @@
               "RelativeToolTip": "AddressBook.Presentation\\Services\\CurrentUserService.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAYwBUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T18:57:56.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T18:57:56.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "RegisterRequestDto.cs",
-              "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Auth\\RegisterRequestDto.cs",
-              "RelativeDocumentMoniker": "AddressBook.Business\\DTOs\\Auth\\RegisterRequestDto.cs",
-              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Auth\\RegisterRequestDto.cs",
-              "RelativeToolTip": "AddressBook.Business\\DTOs\\Auth\\RegisterRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T18:29:00.423Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\appsettings.json",
               "RelativeDocumentMoniker": "AddressBook.Presentation\\appsettings.json",
@@ -541,25 +549,23 @@
               "RelativeToolTip": "AddressBook.Presentation\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-16T18:19:41.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T18:19:41.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AddressBook.Presentation",
+              "DocumentIndex": 30,
+              "Title": "AddressBook.Presentation.csproj",
               "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\AddressBook.Presentation.csproj",
               "RelativeDocumentMoniker": "AddressBook.Presentation\\AddressBook.Presentation.csproj",
               "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\AddressBook.Presentation.csproj",
               "RelativeToolTip": "AddressBook.Presentation\\AddressBook.Presentation.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-08-16T18:18:10.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T18:18:10.333Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "AddressBook.Presentation.http",
               "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\AddressBook.Presentation.http",
               "RelativeDocumentMoniker": "AddressBook.Presentation\\AddressBook.Presentation.http",
@@ -567,34 +573,7 @@
               "RelativeToolTip": "AddressBook.Presentation\\AddressBook.Presentation.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-08-16T18:54:01.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "AddressSearchDto.cs",
-              "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Address\\AddressSearchDto.cs",
-              "RelativeDocumentMoniker": "AddressBook.Business\\DTOs\\Address\\AddressSearchDto.cs",
-              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Address\\AddressSearchDto.cs",
-              "RelativeToolTip": "AddressBook.Business\\DTOs\\Address\\AddressSearchDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T18:45:06.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "LoginResponseDto.cs",
-              "DocumentMoniker": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Auth\\LoginResponseDto.cs",
-              "RelativeDocumentMoniker": "AddressBook.Business\\DTOs\\Auth\\LoginResponseDto.cs",
-              "ToolTip": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Business\\DTOs\\Auth\\LoginResponseDto.cs",
-              "RelativeToolTip": "AddressBook.Business\\DTOs\\Auth\\LoginResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T18:32:29.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T18:54:01.972Z"
             },
             {
               "$type": "Document",
@@ -606,8 +585,7 @@
               "RelativeToolTip": "AddressBook.Business\\DTOs\\Auth\\LoginRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T18:31:07.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T18:31:07.049Z"
             },
             {
               "$type": "Document",
@@ -619,8 +597,7 @@
               "RelativeToolTip": "AddressBook.Presentation\\Migrations\\20260816182202_initialcreate.cs",
               "ViewState": "AgIAAFoAAAAAAAAAAAAkwGMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T18:22:03.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T18:22:03.294Z"
             },
             {
               "$type": "Document",
@@ -632,8 +609,7 @@
               "RelativeToolTip": "AddressBook.Domain\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T17:28:19.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T17:28:19.157Z"
             },
             {
               "$type": "Document",
@@ -645,8 +621,7 @@
               "RelativeToolTip": "AddressBook.Domain\\Entities\\Address.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAkwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T17:28:28.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T17:28:28.918Z"
             },
             {
               "$type": "Document",
@@ -658,8 +633,7 @@
               "RelativeToolTip": "AddressBook.Domain\\Entities\\Department.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T17:28:46.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T17:28:46.97Z"
             },
             {
               "$type": "Document",
@@ -671,8 +645,7 @@
               "RelativeToolTip": "AddressBook.Domain\\Entities\\JobTitle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T17:28:38.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T17:28:38.22Z"
             },
             {
               "$type": "Document",
@@ -684,8 +657,7 @@
               "RelativeToolTip": "AddressBook.Business\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T17:29:23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T17:29:23Z"
             },
             {
               "$type": "Document",
@@ -697,8 +669,7 @@
               "RelativeToolTip": "AddressBook.Domain\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T17:27:21.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T17:27:21.944Z"
             }
           ]
         }

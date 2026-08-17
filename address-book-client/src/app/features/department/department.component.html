@@ -1,0 +1,200 @@
+<div class="management-container">
+
+  <div class="page-header">
+
+    <div>
+      <h1>Departments</h1>
+      <p>Manage departments</p>
+    </div>
+
+    <button
+      type="button"
+      class="btn btn-primary"
+      (click)="openAddModal()">
+
+      + Add Department
+
+    </button>
+
+  </div>
+
+
+  @if (errorMessage) {
+
+    <div class="error-message">
+      {{ errorMessage }}
+    </div>
+
+  }
+
+
+  <div class="table-container">
+
+    <table>
+
+      <thead>
+
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Actions</th>
+        </tr>
+
+      </thead>
+
+      <tbody>
+
+        @for (department of departments; track department.id) {
+
+          <tr>
+
+            <td>
+              {{ department.id }}
+            </td>
+
+            <td>
+              {{ department.name }}
+            </td>
+
+            <td>
+
+              <div class="actions">
+
+                <button
+                  type="button"
+                  class="btn btn-edit"
+                  (click)="openEditModal(department)">
+
+                  Edit
+
+                </button>
+
+                <button
+                  type="button"
+                  class="btn btn-delete"
+                  (click)="delete(department.id)">
+
+                  Delete
+
+                </button>
+
+              </div>
+
+            </td>
+
+          </tr>
+
+        }
+
+        @if (departments.length === 0) {
+
+          <tr>
+
+            <td
+              colspan="3"
+              class="empty">
+
+              No departments found.
+
+            </td>
+
+          </tr>
+
+        }
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+
+  @if (showModal) {
+
+    <div
+      class="modal-overlay"
+      (click)="closeModal()">
+
+      <div
+        class="modal-content"
+        (click)="$event.stopPropagation()">
+
+        <div class="modal-header">
+
+          <h2>
+            {{ editingId === null
+              ? 'Add Department'
+              : 'Edit Department' }}
+          </h2>
+
+          <button
+            type="button"
+            class="close-btn"
+            (click)="closeModal()">
+
+            ×
+
+          </button>
+
+        </div>
+
+
+        <form
+          [formGroup]="departmentForm"
+          (ngSubmit)="save()">
+
+          <div class="form-group">
+
+            <label>
+              Department
+            </label>
+
+            <input
+              type="text"
+              formControlName="name"
+              placeholder="Enter department">
+
+            @if (isInvalid('name')) {
+
+              <div class="validation-error">
+                Department is required.
+              </div>
+
+            }
+
+          </div>
+
+
+          <div class="modal-actions">
+
+            <button
+              type="button"
+              class="btn btn-secondary"
+              (click)="closeModal()">
+
+              Cancel
+
+            </button>
+
+            <button
+              type="submit"
+              class="btn btn-primary"
+              [disabled]="loading">
+
+              {{ editingId === null
+                ? 'Add'
+                : 'Update' }}
+
+            </button>
+
+          </div>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  }
+
+</div>

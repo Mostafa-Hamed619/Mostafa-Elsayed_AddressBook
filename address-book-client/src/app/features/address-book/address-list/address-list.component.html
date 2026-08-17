@@ -1,0 +1,518 @@
+<div class="address-book-container">
+
+  <!-- Header -->
+
+  <div class="page-header">
+
+    <div>
+      <h1>Address Book</h1>
+
+      <p>
+        Manage your contacts
+      </p>
+    </div>
+
+ <div class="header-actions">
+
+  <button type="button" class="btn btn-primary" (click)="addNewEntry()">
+    + Add New Entry
+  </button>
+
+  <button type="button" class="btn btn-success"(click)="exportExcel()">
+    Export Excel
+  </button>
+
+  <button type="button" class="btn btn-secondary" (click)="manageJobs()">
+    Manage Jobs
+  </button>
+
+  <button type="button" class="btn btn-secondary" (click)="manageDepartments()">
+    Manage Departments
+  </button>
+
+  <button type="button" class="btn btn-danger" (click)="logout()">
+    Logout
+  </button>
+
+</div>
+
+  </div>
+
+  
+
+  <!-- Error -->
+
+  @if (errorMessage) {
+
+    <div class="error-message">
+      {{ errorMessage }}
+    </div>
+
+  }
+
+
+  <!-- Loading -->
+
+  @if (loading) {
+
+    <div class="loading">
+      Loading addresses...
+    </div>
+
+  }
+
+<div class="search-container">
+
+  <div class="search-row">
+
+    <div class="search-field">
+
+      <label>Search</label>
+
+      <input
+        type="text"
+        [(ngModel)]="searchTerm"
+        placeholder="Search by name, job, department, phone, email or address">
+
+    </div>
+
+
+    <div class="search-field">
+
+      <label>Birth Date From</label>
+
+      <input
+        type="date"
+        [(ngModel)]="dateOfBirthFrom">
+
+    </div>
+
+
+    <div class="search-field">
+
+      <label>Birth Date To</label>
+
+      <input
+        type="date"
+        [(ngModel)]="dateOfBirthTo">
+
+    </div>
+
+
+    <div class="search-buttons">
+
+      <button
+        type="button"
+        class="btn btn-primary"
+        (click)="searchAddresses()">
+
+        Search
+
+      </button>
+
+
+      <button
+        type="button"
+        class="btn btn-secondary"
+        (click)="clearSearch()">
+
+        Clear
+
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+  <!-- Address Table -->
+
+  @if (!loading) {
+
+    <div class="table-container">
+
+      <table>
+
+        <thead>
+
+          <tr>
+
+            <th>Photo</th>
+
+            <th>Full Name</th>
+
+            <th>Job Title</th>
+
+            <th>Department</th>
+
+            <th>Mobile Number</th>
+
+            <th>Date of Birth</th>
+
+            <th>Age</th>
+
+            <th>Address</th>
+
+            <th>Email</th>
+
+            <th>Actions</th>
+
+          </tr>
+
+        </thead>
+
+
+        <tbody>
+
+          @for (address of addresses; track address.id) {
+
+            <tr>
+
+              <td>
+
+              <img [src]="getPhotoUrl(address.photo)"[alt]="address.fullName"class="profile-photo">
+               
+              </td>
+
+
+              <td>
+                {{ address.fullName }}
+              </td>
+
+
+              <td>
+                {{ address.jobTitle }}
+              </td>
+
+
+              <td>
+                {{ address.department }}
+              </td>
+
+
+              <td>
+                {{ address.mobileNumber }}
+              </td>
+
+
+              <td>
+                {{ address.dateOfBirth | date:'dd/MM/yyyy' }}
+              </td>
+
+
+              <td>
+                {{ address.age }}
+              </td>
+
+
+              <td>
+                {{ address.addressLine }}
+              </td>
+
+
+              <td>
+                {{ address.email }}
+              </td>
+
+
+              <td>
+
+                <div class="actions">
+
+                  <button type="button" (click)="editAddress(address)" class="btn btn-edit" >
+                    Edit
+                  </button>
+
+
+                  <button type="button"class="btn btn-delete"(click)="deleteAddress(address.id)">
+                    Delete
+                  </button>
+
+                </div>
+
+              </td>
+
+            </tr>
+
+          }
+
+
+          @if (addresses.length === 0) {
+
+            <tr>
+
+              <td
+                colspan="10"
+                class="empty">
+
+                No addresses found.
+
+              </td>
+
+            </tr>
+
+          }
+
+        </tbody>
+
+      </table>
+
+    </div>
+
+  }
+
+
+  @if (showEditModal && selectedAddress) {
+
+  <div class="modal-overlay" (click)="closeEditModal()">
+
+    <div class="modal-content" (click)="$event.stopPropagation()">
+
+      <div class="modal-header">
+
+        <h2>Edit Address</h2>
+
+        <button
+          type="button"
+          class="close-btn"
+          (click)="closeEditModal()">
+          ×
+        </button>
+
+      </div>
+
+      <div class="modal-body">
+
+
+       @if (showEditModal && selectedAddress) {
+
+  <div class="modal-overlay" (click)="closeEditModal()">
+
+    <div class="modal-content" (click)="$event.stopPropagation()">
+
+      <!-- Header -->
+      <div class="modal-header">
+
+        <h2>Edit Address</h2>
+
+        <button
+          type="button"
+          class="close-btn"
+          (click)="closeEditModal()">
+          ×
+        </button>
+
+      </div>
+
+
+      <!-- Form -->
+      <form
+        class="edit-form"
+        (ngSubmit)="updateAddress()">
+
+        <!-- Full Name -->
+        <div class="form-group">
+
+          <label>Full Name</label>
+
+          <input
+            type="text"
+            name="fullName"
+            [(ngModel)]="selectedAddress.fullName"
+            required
+            minlength="2"
+            maxlength="150">
+
+        </div>
+
+
+        <!-- Job Title -->
+        <div class="form-group">
+
+          <label>Job Title</label>
+
+          <select
+            name="jobId"
+            [(ngModel)]="selectedAddress.jobId"
+            required>
+
+            @for (job of jobTitles; track job.id) {
+
+              <option [ngValue]="job.id">
+                {{ job.name }}
+              </option>
+
+            }
+
+          </select>
+
+        </div>
+
+
+        <!-- Department -->
+        <div class="form-group">
+
+          <label>Department</label>
+
+          <select
+            name="departmentId"
+            [(ngModel)]="selectedAddress.departmentId"
+            required>
+
+            @for (department of departments; track department.id) {
+
+              <option [ngValue]="department.id">
+                {{ department.name }}
+              </option>
+
+            }
+
+          </select>
+
+        </div>
+
+
+        <!-- Mobile Number -->
+        <div class="form-group">
+
+          <label>Mobile Number</label>
+
+          <input
+            type="tel"
+            name="mobileNumber"
+            [(ngModel)]="selectedAddress.mobileNumber"
+            pattern="^01[0125][0-9]{8}$"
+            required>
+
+        </div>
+
+
+        <!-- Date of Birth -->
+        <div class="form-group">
+
+          <label>Date of Birth</label>
+
+          <input
+            type="date"
+            name="dateOfBirth"
+            [ngModel]="selectedAddress.dateOfBirth | date:'yyyy-MM-dd'"
+            (ngModelChange)="selectedAddress!.dateOfBirth = $event"
+            required>
+
+        </div>
+
+
+        <!-- Age -->
+        <div class="form-group">
+
+          <label>Age</label>
+
+          <input
+            type="number"
+            [value]="selectedAddress.age"
+            disabled>
+
+          <small>
+            Age is calculated automatically from Date of Birth
+          </small>
+
+        </div>
+
+
+        <!-- Address -->
+        <div class="form-group">
+
+          <label>Address</label>
+
+          <textarea
+            name="addressLine"
+            [(ngModel)]="selectedAddress.addressLine"
+            maxlength="500"
+            required>
+          </textarea>
+
+        </div>
+
+
+        <!-- Email -->
+        <div class="form-group">
+
+          <label>Email</label>
+
+          <input
+            type="email"
+            name="email"
+            [(ngModel)]="selectedAddress.email"
+            required>
+
+        </div>
+
+
+        <!-- Current Photo -->
+        @if (selectedAddress.photo) {
+
+          <div class="current-photo">
+
+            <label>Current Photo</label>
+
+            <img
+              [src]="getPhotoUrl(selectedAddress.photo)"
+              [alt]="selectedAddress.fullName">
+
+          </div>
+
+        }
+
+
+        <!-- New Photo -->
+        <div class="form-group">
+
+          <label>Change Photo</label>
+
+          <input
+            type="file"
+            accept="image/*"
+            (change)="onPhotoSelected($event)">
+
+        </div>
+
+
+        <!-- Actions -->
+        <div class="form-actions">
+
+          <button
+            type="button"
+            class="btn btn-secondary"
+            (click)="closeEditModal()">
+
+            Cancel
+
+          </button>
+
+
+          <button
+            type="submit"
+            class="btn btn-primary">
+
+            Save Changes
+
+          </button>
+
+        </div>
+
+      </form>
+
+    </div>
+
+  </div>
+
+}
+      </div>
+
+    </div>
+
+  </div>
+
+}
+
+</div>

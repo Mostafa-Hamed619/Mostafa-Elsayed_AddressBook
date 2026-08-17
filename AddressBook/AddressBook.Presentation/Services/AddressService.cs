@@ -2,8 +2,8 @@ using AddressBook.Business.DTOs.Address;
 using AddressBook.Business.Interfaces;
 using AddressBook.Domain.Entities;
 using AddressBook.Presentation.Data;
-using Microsoft.EntityFrameworkCore;
 using ClosedXML.Excel;
+using Microsoft.EntityFrameworkCore;
 namespace AddressBook.Business.Services
 {
     public class AddressService : IAddressService
@@ -188,51 +188,55 @@ namespace AddressBook.Business.Services
             return true;
         }
 
-        public async Task<IEnumerable<AddressDto>> SearchAsync(
-            AddressSearchDto dto)
+        public async Task<IEnumerable<AddressDto>> SearchAsync(AddressSearchDto dto)
         {
-            var userId = _currentUserService.GetUserId();
-
-            var query = _context.Addresses.AsNoTracking()
-                .Where(a => a.UserId == userId)
+            var query = _context.Addresses
                 .Include(a => a.Job)
                 .Include(a => a.Department)
                 .AsQueryable();
 
-            if (!string.IsNullOrWhiteSpace(dto.Search))
+            if (!string.IsNullOrWhiteSpace(dto.SearchTerm))
             {
-                var search = dto.Search.Trim();
+                var term = dto.SearchTerm.Trim();
 
                 query = query.Where(a =>
-                    a.FullName.Contains(search) ||
-                    a.Email.Contains(search) ||
-                    a.MobileNumber.Contains(search) ||
-                    a.AddressLine.Contains(search));
+                    a.FullName.Contains(term) ||
+                    a.Email.Contains(term) ||
+                    a.MobileNumber.Contains(term) ||
+                    a.AddressLine.Contains(term) ||
+                    a.Job.Name.Contains(term) ||
+                    a.Department.Name.Contains(term)
+                );
             }
 
-            if (dto.JobId.HasValue)
+            if (dto.DateOfBirthFrom.HasValue)
             {
-                query = query.Where(a => a.JobId == dto.JobId.Value);
+                query = query.Where(a =>
+                    a.DateOfBirth >= dto.DateOfBirthFrom.Value);
             }
 
-            if (dto.DepartmentId.HasValue)
+            if (dto.DateOfBirthTo.HasValue)
             {
-                query = query.Where(a => a.DepartmentId == dto.DepartmentId.Value);
+                query = query.Where(a =>
+                    a.DateOfBirth <= dto.DateOfBirthTo.Value);
             }
 
-            if (dto.FromDate.HasValue)
-            {
-                query = query.Where(a => a.DateOfBirth >= dto.FromDate.Value);
-            }
-
-            if (dto.ToDate.HasValue)
-            {
-                query = query.Where(a => a.DateOfBirth <= dto.ToDate.Value);
-            }
-
-            var addresses = await query.ToListAsync();
-
-            return addresses.Select(MapToDto);
+            return await query
+                .Select(a => new AddressDto
+                {
+                    Id = a.Id,
+                    FullName = a.FullName,
+                    JobId = a.JobId,
+                    JobTitle = a.Job.Name,
+                    DepartmentId = a.DepartmentId,
+                    Department = a.Department.Name,
+                    MobileNumber = a.MobileNumber,
+                    DateOfBirth = a.DateOfBirth,
+                    AddressLine = a.AddressLine,
+                    Email = a.Email,
+                    Photo = a.Photo
+                })
+                .ToListAsync();
         }
 
         private static AddressDto MapToDto(Address address)

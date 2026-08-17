@@ -1,0 +1,340 @@
+<div class="form-container">
+
+  <div class="form-header">
+
+    <div>
+      <h1>Add New Entry</h1>
+
+      <p>
+        Add a new contact to your address book
+      </p>
+    </div>
+
+    <button
+      type="button"
+      class="btn btn-secondary"
+      (click)="cancel()">
+
+      Back
+
+    </button>
+
+  </div>
+
+
+  @if (errorMessage) {
+
+    <div class="error-message">
+      {{ errorMessage }}
+    </div>
+
+  }
+
+
+  <form
+    [formGroup]="addressForm"
+    (ngSubmit)="submit()">
+
+
+    <!-- Full Name -->
+
+    <div class="form-group">
+
+      <label for="fullName">
+        Full Name
+      </label>
+
+      <input
+        id="fullName"
+        type="text"
+        formControlName="fullName"
+        placeholder="Enter full name">
+
+      @if (isInvalid('fullName')) {
+
+        <small class="validation-error">
+
+          @if (addressForm.get('fullName')?.hasError('required')) {
+            Full name is required.
+          }
+
+          @if (addressForm.get('fullName')?.hasError('minlength')) {
+            Full name must be at least 2 characters.
+          }
+
+          @if (addressForm.get('fullName')?.hasError('maxlength')) {
+            Full name cannot exceed 150 characters.
+          }
+
+        </small>
+
+      }
+
+    </div>
+
+
+    <!-- Job Title -->
+
+    <div class="form-group">
+
+      <label for="jobId">
+        Job Title
+      </label>
+
+      <select
+        id="jobId"
+        formControlName="jobId">
+
+        <option value="">
+          Select Job Title
+        </option>
+
+        @for (job of jobTitles; track job.id) {
+
+          <option [value]="job.id">
+            {{ job.name }}
+          </option>
+
+        }
+
+      </select>
+
+      @if (isInvalid('jobId')) {
+
+        <small class="validation-error">
+          Job title is required.
+        </small>
+
+      }
+
+    </div>
+
+
+    <!-- Department -->
+
+    <div class="form-group">
+
+      <label for="departmentId">
+        Department
+      </label>
+
+      <select
+        id="departmentId"
+        formControlName="departmentId">
+
+        <option value="">
+          Select Department
+        </option>
+
+        @for (department of departments; track department.id) {
+
+          <option [value]="department.id">
+            {{ department.name }}
+          </option>
+
+        }
+
+      </select>
+
+      @if (isInvalid('departmentId')) {
+
+        <small class="validation-error">
+          Department is required.
+        </small>
+
+      }
+
+    </div>
+
+
+    <!-- Mobile Number -->
+
+    <div class="form-group">
+
+      <label for="mobileNumber">
+        Mobile Number
+      </label>
+
+      <input
+        id="mobileNumber"
+        type="tel"
+        formControlName="mobileNumber"
+        placeholder="01012345678">
+
+      @if (isInvalid('mobileNumber')) {
+
+        <small class="validation-error">
+
+          @if (addressForm.get('mobileNumber')?.hasError('required')) {
+            Mobile number is required.
+          }
+
+          @if (addressForm.get('mobileNumber')?.hasError('pattern')) {
+            Please enter a valid Egyptian mobile number.
+          }
+
+        </small>
+
+      }
+
+    </div>
+
+
+    <!-- Date of Birth -->
+
+    <div class="form-group">
+
+      <label for="dateOfBirth">
+        Date of Birth
+      </label>
+
+      <input
+        id="dateOfBirth"
+        type="date"
+        formControlName="dateOfBirth"
+        (change)="calculateAge()">
+
+      @if (isInvalid('dateOfBirth')) {
+
+        <small class="validation-error">
+          Date of birth is required.
+        </small>
+
+      }
+
+    </div>
+
+
+    <!-- Age -->
+
+    <div class="form-group">
+
+      <label for="age">
+        Age
+      </label>
+
+      <input
+        id="age"
+        type="number"
+        formControlName="age"
+        readonly>
+
+    </div>
+
+
+    <!-- Address -->
+
+    <div class="form-group">
+
+      <label for="addressLine">
+        Address
+      </label>
+
+      <textarea
+        id="addressLine"
+        formControlName="addressLine"
+        placeholder="Enter address">
+      </textarea>
+
+      @if (isInvalid('addressLine')) {
+
+        <small class="validation-error">
+          Address is required.
+        </small>
+
+      }
+
+    </div>
+
+
+    <!-- Email -->
+
+    <div class="form-group">
+
+      <label for="email">
+        Email
+      </label>
+
+      <input
+        id="email"
+        type="email"
+        formControlName="email"
+        placeholder="example@email.com">
+
+      @if (isInvalid('email')) {
+
+        <small class="validation-error">
+
+          @if (addressForm.get('email')?.hasError('required')) {
+            Email is required.
+          }
+
+          @if (addressForm.get('email')?.hasError('email')) {
+            Please enter a valid email.
+          }
+
+        </small>
+
+      }
+
+    </div>
+
+
+    <!-- Photo -->
+
+    <div class="form-group">
+
+      <label for="photo">
+        Photo
+      </label>
+
+      <input
+        id="photo"
+        type="file"
+        accept="image/*"
+        (change)="onPhotoSelected($event)">
+
+      @if (selectedPhoto) {
+
+        <small>
+          Selected: {{ selectedPhoto.name }}
+        </small>
+
+      }
+
+    </div>
+
+
+    <!-- Buttons -->
+
+    <div class="form-actions">
+
+      <button
+        type="button"
+        class="btn btn-secondary"
+        (click)="cancel()">
+
+        Cancel
+
+      </button>
+
+
+      <button
+        type="submit"
+        class="btn btn-primary"
+        [disabled]="loading">
+
+        @if (loading) {
+          Saving...
+        }
+        @else {
+          Add Entry
+        }
+
+      </button>
+
+    </div>
+
+  </form>
+
+</div>

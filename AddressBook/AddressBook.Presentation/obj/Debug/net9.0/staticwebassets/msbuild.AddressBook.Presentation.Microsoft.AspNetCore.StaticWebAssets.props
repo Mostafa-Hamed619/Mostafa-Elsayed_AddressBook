@@ -18,6 +18,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\addresses\38ae261b-b63a-4b47-b848-521360c31a51.webp'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\addresses\4c8f154c-5820-4b8e-8f89-abc6451e56e1.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AddressBook.Presentation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AddressBook.Presentation</BasePath>
+      <RelativePath>uploads/addresses/4c8f154c-5820-4b8e-8f89-abc6451e56e1.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>r0plzflyem</Fingerprint>
+      <Integrity>FR85AyGXFSylAk3cha0XixXxwTGX8Un/Y2SOj7qLiYY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\addresses\4c8f154c-5820-4b8e-8f89-abc6451e56e1.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\addresses\86558f71-1c4a-4cbc-abb2-544fffb607cd.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>AddressBook.Presentation</SourceId>

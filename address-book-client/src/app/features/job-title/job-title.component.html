@@ -1,0 +1,202 @@
+<div class="management-container">
+
+  <div class="page-header">
+
+    <div>
+      <h1>Job Titles</h1>
+      <p>Manage job titles</p>
+    </div>
+
+    <button
+      type="button"
+      class="btn btn-primary"
+      (click)="openAddModal()">
+
+      + Add Job Title
+
+    </button>
+
+  </div>
+
+
+  @if (errorMessage) {
+
+    <div class="error-message">
+      {{ errorMessage }}
+    </div>
+
+  }
+
+
+  <div class="table-container">
+
+    <table>
+
+      <thead>
+
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Actions</th>
+        </tr>
+
+      </thead>
+
+      <tbody>
+
+        @for (job of jobTitles; track job.id) {
+
+          <tr>
+
+            <td>
+              {{ job.id }}
+            </td>
+
+            <td>
+              {{ job.name }}
+            </td>
+
+            <td>
+
+              <div class="actions">
+
+                <button
+                  type="button"
+                  class="btn btn-edit"
+                  (click)="openEditModal(job)">
+
+                  Edit
+
+                </button>
+
+                <button
+                  type="button"
+                  class="btn btn-delete"
+                  (click)="delete(job.id)">
+
+                  Delete
+
+                </button>
+
+              </div>
+
+            </td>
+
+          </tr>
+
+        }
+
+        @if (jobTitles.length === 0) {
+
+          <tr>
+
+            <td
+              colspan="3"
+              class="empty">
+
+              No job titles found.
+
+            </td>
+
+          </tr>
+
+        }
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+
+  <!-- Modal -->
+
+  @if (showModal) {
+
+    <div
+      class="modal-overlay"
+      (click)="closeModal()">
+
+      <div
+        class="modal-content"
+        (click)="$event.stopPropagation()">
+
+        <div class="modal-header">
+
+          <h2>
+            {{ editingId === null
+              ? 'Add Job Title'
+              : 'Edit Job Title' }}
+          </h2>
+
+          <button
+            type="button"
+            class="close-btn"
+            (click)="closeModal()">
+
+            ×
+
+          </button>
+
+        </div>
+
+
+        <form
+          [formGroup]="jobForm"
+          (ngSubmit)="save()">
+
+          <div class="form-group">
+
+            <label>
+              Job Title
+            </label>
+
+            <input
+              type="text"
+              formControlName="name"
+              placeholder="Enter job title">
+
+            @if (isInvalid('name')) {
+
+              <div class="validation-error">
+                Job title is required.
+              </div>
+
+            }
+
+          </div>
+
+
+          <div class="modal-actions">
+
+            <button
+              type="button"
+              class="btn btn-secondary"
+              (click)="closeModal()">
+
+              Cancel
+
+            </button>
+
+            <button
+              type="submit"
+              class="btn btn-primary"
+              [disabled]="loading">
+
+              {{ editingId === null
+                ? 'Add'
+                : 'Update' }}
+
+            </button>
+
+          </div>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  }
+
+</div>

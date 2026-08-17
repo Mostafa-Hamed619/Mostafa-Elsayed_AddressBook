@@ -2,14 +2,10 @@
 {
     public class AddressSearchDto
     {
-        public string? Search { get; set; }
+        public string? SearchTerm { get; set; }
 
-        public int? JobId { get; set; }
+        public DateTime? DateOfBirthFrom { get; set; }
 
-        public int? DepartmentId { get; set; }
-
-        public DateTime? FromDate { get; set; }
-
-        public DateTime? ToDate { get; set; }
+        public DateTime? DateOfBirthTo { get; set; }
     }
 }

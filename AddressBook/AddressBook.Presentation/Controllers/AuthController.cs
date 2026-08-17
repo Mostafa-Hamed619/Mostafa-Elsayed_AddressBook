@@ -39,9 +39,19 @@ namespace AddressBook.Presentation.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginRequestDto dto)
         {
-            var result = await _authService.LoginAsync(dto);
+            try
+            {
+                var result = await _authService.LoginAsync(dto);
 
-            return Ok(result);
+                return Ok(result);
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                return BadRequest(new
+                {
+                    message = "Unauthorized Access!!"
+                });
+            }
         }
     }
 }
