@@ -1,0 +1,40 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\addresses\38ae261b-b63a-4b47-b848-521360c31a51.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AddressBook.Presentation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AddressBook.Presentation</BasePath>
+      <RelativePath>uploads/addresses/38ae261b-b63a-4b47-b848-521360c31a51.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>r0plzflyem</Fingerprint>
+      <Integrity>FR85AyGXFSylAk3cha0XixXxwTGX8Un/Y2SOj7qLiYY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\addresses\38ae261b-b63a-4b47-b848-521360c31a51.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\addresses\86558f71-1c4a-4cbc-abb2-544fffb607cd.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AddressBook.Presentation</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AddressBook.Presentation</BasePath>
+      <RelativePath>uploads/addresses/86558f71-1c4a-4cbc-abb2-544fffb607cd.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>brokpjn2gx</Fingerprint>
+      <Integrity>V4+UZGN0z/MCHsO99qQkHZsX5wskeBF4gwECkECD4ng=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\addresses\86558f71-1c4a-4cbc-abb2-544fffb607cd.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>

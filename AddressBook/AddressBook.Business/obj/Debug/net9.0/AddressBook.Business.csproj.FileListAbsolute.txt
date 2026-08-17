@@ -1,0 +1,16 @@
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Business\bin\Debug\net9.0\AddressBook.Business.deps.json
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Business\bin\Debug\net9.0\AddressBook.Business.dll
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Business\bin\Debug\net9.0\AddressBook.Business.pdb
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Business\bin\Debug\net9.0\AddressBook.Domain.dll
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Business\bin\Debug\net9.0\AddressBook.Domain.pdb
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Business\obj\Debug\net9.0\AddressBook.Business.csproj.AssemblyReference.cache
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Business\obj\Debug\net9.0\AddressBook.Business.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Business\obj\Debug\net9.0\AddressBook.Business.AssemblyInfoInputs.cache
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Business\obj\Debug\net9.0\AddressBook.Business.AssemblyInfo.cs
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Business\obj\Debug\net9.0\AddressBook.Business.csproj.CoreCompileInputs.cache
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Business\obj\Debug\net9.0\AddressBook.Business.sourcelink.json
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Business\obj\Debug\net9.0\AddressB.B9F878F8.Up2Date
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Business\obj\Debug\net9.0\AddressBook.Business.dll
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Business\obj\Debug\net9.0\refint\AddressBook.Business.dll
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Business\obj\Debug\net9.0\AddressBook.Business.pdb
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Business\obj\Debug\net9.0\ref\AddressBook.Business.dll

@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\wwwroot\\uploads\\addresses\\38ae261b-b63a-4b47-b848-521360c31a51.webp",
+      "PackagePath": "staticwebassets\\uploads\\addresses\\38ae261b-b63a-4b47-b848-521360c31a51.webp"
+    },
+    {
+      "Id": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\wwwroot\\uploads\\addresses\\86558f71-1c4a-4cbc-abb2-544fffb607cd.jpg",
+      "PackagePath": "staticwebassets\\uploads\\addresses\\86558f71-1c4a-4cbc-abb2-544fffb607cd.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.AddressBook.Presentation.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.AddressBook.Presentation.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.AddressBook.Presentation.props",
+      "PackagePath": "build\\AddressBook.Presentation.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.AddressBook.Presentation.props",
+      "PackagePath": "buildMultiTargeting\\AddressBook.Presentation.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.AddressBook.Presentation.props",
+      "PackagePath": "buildTransitive\\AddressBook.Presentation.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

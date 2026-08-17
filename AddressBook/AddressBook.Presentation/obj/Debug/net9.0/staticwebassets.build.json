@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "Hash": "r/WKoz/XMyzAbkNqZj32L/T799XICraY2ZARA7raskg=",
+  "Source": "AddressBook.Presentation",
+  "BasePath": "_content/AddressBook.Presentation",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AddressBook.Presentation\\wwwroot",
+      "Source": "AddressBook.Presentation",
+      "ContentRoot": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\wwwroot\\",
+      "BasePath": "_content/AddressBook.Presentation",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\wwwroot\\uploads\\addresses\\38ae261b-b63a-4b47-b848-521360c31a51.webp",
+      "SourceId": "AddressBook.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\wwwroot\\",
+      "BasePath": "_content/AddressBook.Presentation",
+      "RelativePath": "uploads/addresses/38ae261b-b63a-4b47-b848-521360c31a51#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r0plzflyem",
+      "Integrity": "FR85AyGXFSylAk3cha0XixXxwTGX8Un/Y2SOj7qLiYY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\addresses\\38ae261b-b63a-4b47-b848-521360c31a51.webp"
+    },
+    {
+      "Identity": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\wwwroot\\uploads\\addresses\\86558f71-1c4a-4cbc-abb2-544fffb607cd.jpg",
+      "SourceId": "AddressBook.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\wwwroot\\",
+      "BasePath": "_content/AddressBook.Presentation",
+      "RelativePath": "uploads/addresses/86558f71-1c4a-4cbc-abb2-544fffb607cd#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "brokpjn2gx",
+      "Integrity": "V4+UZGN0z/MCHsO99qQkHZsX5wskeBF4gwECkECD4ng=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\addresses\\86558f71-1c4a-4cbc-abb2-544fffb607cd.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/addresses/38ae261b-b63a-4b47-b848-521360c31a51.r0plzflyem.webp",
+      "AssetFile": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\wwwroot\\uploads\\addresses\\38ae261b-b63a-4b47-b848-521360c31a51.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10574"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FR85AyGXFSylAk3cha0XixXxwTGX8Un/Y2SOj7qLiYY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Aug 2026 20:22:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r0plzflyem"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/addresses/38ae261b-b63a-4b47-b848-521360c31a51.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FR85AyGXFSylAk3cha0XixXxwTGX8Un/Y2SOj7qLiYY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/addresses/38ae261b-b63a-4b47-b848-521360c31a51.webp",
+      "AssetFile": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\wwwroot\\uploads\\addresses\\38ae261b-b63a-4b47-b848-521360c31a51.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10574"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FR85AyGXFSylAk3cha0XixXxwTGX8Un/Y2SOj7qLiYY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Aug 2026 20:22:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FR85AyGXFSylAk3cha0XixXxwTGX8Un/Y2SOj7qLiYY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/addresses/86558f71-1c4a-4cbc-abb2-544fffb607cd.brokpjn2gx.jpg",
+      "AssetFile": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\wwwroot\\uploads\\addresses\\86558f71-1c4a-4cbc-abb2-544fffb607cd.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93174"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V4+UZGN0z/MCHsO99qQkHZsX5wskeBF4gwECkECD4ng=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Aug 2026 20:20:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "brokpjn2gx"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/addresses/86558f71-1c4a-4cbc-abb2-544fffb607cd.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V4+UZGN0z/MCHsO99qQkHZsX5wskeBF4gwECkECD4ng="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/addresses/86558f71-1c4a-4cbc-abb2-544fffb607cd.jpg",
+      "AssetFile": "E:\\projects\\Api\\AddressBook\\AddressBook\\AddressBook.Presentation\\wwwroot\\uploads\\addresses\\86558f71-1c4a-4cbc-abb2-544fffb607cd.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93174"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V4+UZGN0z/MCHsO99qQkHZsX5wskeBF4gwECkECD4ng=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Aug 2026 20:20:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V4+UZGN0z/MCHsO99qQkHZsX5wskeBF4gwECkECD4ng="
+        }
+      ]
+    }
+  ]
+}

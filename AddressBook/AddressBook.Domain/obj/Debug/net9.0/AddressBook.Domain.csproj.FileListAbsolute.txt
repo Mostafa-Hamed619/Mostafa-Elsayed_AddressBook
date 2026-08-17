@@ -1,0 +1,12 @@
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Domain\bin\Debug\net9.0\AddressBook.Domain.deps.json
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Domain\bin\Debug\net9.0\AddressBook.Domain.dll
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Domain\bin\Debug\net9.0\AddressBook.Domain.pdb
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Domain\obj\Debug\net9.0\AddressBook.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Domain\obj\Debug\net9.0\AddressBook.Domain.AssemblyInfoInputs.cache
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Domain\obj\Debug\net9.0\AddressBook.Domain.AssemblyInfo.cs
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Domain\obj\Debug\net9.0\AddressBook.Domain.csproj.CoreCompileInputs.cache
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Domain\obj\Debug\net9.0\AddressBook.Domain.sourcelink.json
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Domain\obj\Debug\net9.0\AddressBook.Domain.dll
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Domain\obj\Debug\net9.0\refint\AddressBook.Domain.dll
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Domain\obj\Debug\net9.0\AddressBook.Domain.pdb
+E:\projects\Api\AddressBook\AddressBook\AddressBook.Domain\obj\Debug\net9.0\ref\AddressBook.Domain.dll
